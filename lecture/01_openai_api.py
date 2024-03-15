@@ -19,7 +19,7 @@
 # -https://openai.com/blog/openai-api
 
 from openai import OpenAI
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
