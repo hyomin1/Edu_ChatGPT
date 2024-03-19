@@ -38,5 +38,3 @@ print(completion.choices[0].message)
 # -> langChain 프레임워크(코드 동일: 모델만 바꾸면)
 
 
-# git commit -m add langchain
-
