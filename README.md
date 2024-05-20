@@ -2,20 +2,32 @@
 
 OpenAI사의 GPT 모델을 활용한 챗봇 개발하기
 
-#VScode를 사용한 Python 개발환경 구축
+## VScode를 사용한 Python 개발환경 구축
 
-1. vscode 설치
-2. python 설치(python.org) + 환경변수(path) 체크
-3. vscode Extension(python, Python Extensin Pack, gitgraph or gitlens) 추가
-4. vscode에서 github계정으로 로그인(연동)
-5. github에서 Repository(프로젝트) 생성
-6. vscode에서 "git clone repository"로 5번에서 생성한 프로젝트 내려받기
-7. 가상환경 생성(venv) : 가상환경 구축 체크
-8. vscode에서 python: Select Interpreter 설정(Ctrl+Shift+P) -> venv
+### 1. VScode 설치
+- Visual Studio Code를 다운로드하고 설치합니다.
+- [VScode 다운로드 링크](https://code.visualstudio.com/)
 
-### Python 가상환경 구축
+### 2. Python 설치
+- Python을 다운로드하고 설치합니다. 설치 시 환경변수(PATH) 설정을 체크합니다.
+- [Python 다운로드 링크](https://www.python.org/downloads/)
 
-1. venv
-   - python -m venv ./venv (가상환경 생성)
-   - .\venv\Scripts\activate (가상환경 접속)
-   - pip install [라이브러리] (가상환경 라이브러리 설치)
+### 3. VScode Extensions 추가
+- 다음 확장 기능들을 설치합니다:
+  - Python
+  - Python Extension Pack
+  - GitGraph 또는 GitLens
+
+### 4. VScode에서 GitHub 계정으로 로그인
+- VScode에서 GitHub 계정으로 로그인하여 연동합니다.
+
+### 5. GitHub에서 Repository(프로젝트) 생성
+- GitHub에서 새로운 저장소를 생성합니다.
+
+### 6. VScode에서 "Git Clone Repository"로 프로젝트 내려받기
+- VScode에서 `Git Clone Repository` 기능을 사용하여 5번에서 생성한 프로젝트를 내려받습니다.
+
+### 7. 가상환경 생성(venv)
+- 가상환경을 생성하고 구축을 확인합니다.
+  ```bash
+  python -m venv ./venv
